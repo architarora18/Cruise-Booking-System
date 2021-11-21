@@ -1,0 +1,1237 @@
+.red{
+    color:red;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+   font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/5.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.links{
+    float: right;
+    max-width: 50px;
+    line-height: 50px;
+    padding-right: 80px;
+    padding-top: 180px;
+    cursor: pointer;
+}
+.links a img:hover{
+    width: 50px;
+    height: 50px;
+}
+.navbar{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    opacity: .7;
+    line-height: 40px;
+}
+.logo{
+    width: 90px;
+    height: 50px;
+    padding-left: 30px;
+}
+
+ ul{
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: white;
+}
+
+ ul li {
+     
+    float: left;
+    width: 150px;
+    height: 40px;
+    opacity: 0.8;
+    line-height: 40px;
+    text-align: center;
+}
+
+ ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 15px;
+}
+
+ ul li a:hover{
+    background-color:buttonface ;
+}
+
+ ul li ul li {
+    display:none;
+    background-color: black;
+    opacity: .8;
+    color: black;
+}
+
+ ul li:hover ul li {
+    display: block;
+}
+ul li:hover ul li a:hover{
+    color: #080808;
+    background-color: #afd9ee;
+}
+#slider{
+    width: 300px;
+}
+.slide-img{
+    position: relative;
+    height: 200px;
+}
+h3{
+    text-align: center;
+}
+.login{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/3.jpg) no-repeat;
+  background-size: cover;
+}
+.login-box{
+   width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid #4caf50;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+.login-home img {
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 150px;
+    height: 100px;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #4caf50;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid #4caf50;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+.signup{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/3.jpg) no-repeat;
+  background-size: cover;
+}
+
+.signup-box{
+  width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.signup-box h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid #4caf50;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+.africa{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/africa2.jpg) no-repeat;
+  background-size: cover;
+}
+.africa-box{
+    width: 480px;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.antarctica {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/antarctica2.jpg) no-repeat;
+  background-size: cover;
+}
+.antarctica-box{
+    width: 480px;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.alaska {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/alaska2.jpg) no-repeat;
+  background-size: cover;
+}
+.alaska-box{
+    width: 480px;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.amazon {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/amazon3.jpg) no-repeat;
+  background-size: cover;
+}
+.amazon-box{
+    width: 480px;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.arctic {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/arctic3.jpg) no-repeat;
+  background-size: cover;
+}
+.arctic-box{
+    width: 480px;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.australia {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/australia3.jpg) no-repeat;
+  background-size: cover;
+}
+.australia-box{
+    width: 480px;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.bahamas {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/bahamas3.jpg) no-repeat;
+  background-size: cover;
+}
+.bahamas-box{
+    width: 480px;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Dubai {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Dubai.jpg) no-repeat;
+  background-size: cover;
+}
+.Dubai-box{
+    width: 480px;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.all{
+    background: #afd9ee;
+    width: 100%;
+    height: 100%;
+}
+.booking{
+  width: 100%;
+  height: 150vh;
+  background : url(img/bg.jpg) no-repeat;     
+  background-size: cover;
+}
+.booking-box{
+    width: 280px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 10px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.booking-box h1{
+    color: #4caf50;
+    font-size:30px;
+}
+.booking-box select{
+    background: none;
+    width: 155px;
+    height: 30px;
+}
+.booking-box select option{
+    background: none;
+    color: black;
+    
+}
+.booking-box check{
+    float: left;
+    size: 20px;
+}
+.textbox-o{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 5px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #4caf50;
+}
+.textbox-o input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.textbox-o label{
+    font-size: 15px;
+    
+}
+.caption{
+    padding: 0px;
+}
+.register{
+    color:#4caf50;
+}
+.Adelaide {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Adelaide.jpeg) no-repeat;
+  background-size: cover;
+}
+.Adelaide-box{
+    width: 480px;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Canada {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Canada.jpg) no-repeat;
+  background-size: cover;
+}
+.Canada-box{
+    width: 480px;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Cuba {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Cuba.jpg) no-repeat;
+  background-size: cover;
+}
+.Cuba-box{
+    width: 480px;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Calgary {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Calgary.jpg) no-repeat;
+  background-size: cover;
+}
+.Calgary-box{
+    width: 480px;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Dover {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Dover.jpg) no-repeat;
+  background-size: cover;
+}
+.Dover-box{
+    width: 480px;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Fukuoka {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Fukuoka.jpg) no-repeat;
+  background-size: cover;
+}
+.Fukuoka-box{
+    width: 480px;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Greenwich {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Greenwich.jpg) no-repeat;
+  background-size: cover;
+}
+.Greenwich-box{
+    width: 480px;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.India {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/India.jpg) no-repeat;
+  background-size: cover;
+}
+.India-box{
+    width: 480px;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Koge {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Koge.jpg) no-repeat;
+  background-size: cover;
+}
+.Koge-box{
+    width: 480px;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.London {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/London.jpg) no-repeat;
+  background-size: cover;
+}
+.London-box{
+    width: 480px;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Mexico {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Mexico.jpg) no-repeat;
+  background-size: cover;
+}
+.Mexico-box{
+    width: 480px;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Mombasa {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Mombasa.jpg) no-repeat;
+  background-size: cover;
+}
+.Mombasa-box{
+    width: 480px;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Norway {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Norway.jpg) no-repeat;
+  background-size: cover;
+}
+.Norway-box{
+    width: 480px;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Pacific-Northwest {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Pacific-Northwest.jpg) no-repeat;
+  background-size: cover;
+}
+.Pacific-Northwest-box{
+    width: 480px;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Paris {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Paris.jpg) no-repeat;
+  background-size: cover;
+}
+.Paris-box{
+    width: 480px;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Russia {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Russia.jpg) no-repeat;
+  background-size: cover;
+}
+.Russia-box{
+    width: 480px;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Rostock {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Rostock.jpg) no-repeat;
+  background-size: cover;
+}
+.Rostock-box{
+    width: 480px;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Southern-Africa {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Southern-Africa.jpg) no-repeat;
+  background-size: cover;
+}
+.Southern-Africa-box{
+    width: 480px;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Southeast-Asia {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Southeast-Asia.jpg) no-repeat;
+  background-size: cover;
+}
+.Southeast-Asia-box{
+    width: 480px;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Tahiti {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Tahiti.jpg) no-repeat;
+  background-size: cover;
+}
+.Tahiti-box{
+    width: 480px;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Toronto {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Toronto.jpg) no-repeat;
+  background-size: cover;
+}
+.Toronto-box{
+    width: 480px;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.Zurich {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/Zurich.jpg) no-repeat;
+  background-size: cover;
+}
+.Zurich-box{
+    width: 480px;
+    position: absolute;
+    top: 58%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.about{
+  width: 100%;
+  height: 97vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/about.jpg) no-repeat;
+  background-size: cover;
+}
+.about1{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.6);
+}
+.about1 h1 {
+    padding-left: 50px;
+    color: white;
+    font-size: 50px;
+}
+.about1 h2 {
+    padding-left: 50px;
+    color: #bce8f1;
+    font-size: 30px;
+}
+.about-box h3 {
+    color: #c1e2b3;
+    font-size: 30px;
+}
+.about-box h4 {
+     color: #c1e2b3;
+    font-size: 30px;   
+}
+.about-box p{
+    color: #d9edf7;
+}
+.about-box{
+    width: 500px;
+    position: absolute;
+    top: 65%;
+    left: 17%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.cruise{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/2.jpg) no-repeat;
+  background-size: cover;
+}
+.cruise1{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.6);
+}
+.cruise2{
+    width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.cruise2 h2{
+    color: white;
+}
+.cruise2 p{
+    color: white;
+}
+.cruise3{
+    width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.cruise3 h2{
+    color: white;
+}
+.cruise3 p{
+    color: white;
+}
+.button1{
+    width: 250px; 
+    align-self: center;
+    float: right;
+}
+.booking-box-main{
+    width: 280px;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 10px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.booking-box-main h1{
+    color: #4caf50;
+    font-size:30px;
+}
+.booking-box-main select{
+    background: none;
+    width: 155px;
+    height: 30px;
+}
+.booking-box-main select option{
+    background: none;
+    color: black;
+}
+.booking-box-main check{
+    float: left;
+    size: 20px;
+}
+.contact-us{
+    margin: 0px;
+    padding: 0px;
+    /*width: 100%;*/
+    width: 1520px;
+    height: 93.3vh;
+    text-align: center;
+    background: url(img/contactus.jpg) no-repeat;
+    background-size: cover;
+}
+.contact-tittle{
+    margin-top: 90px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.contact-tittle h1{
+    font-size: 32px;
+    line-height: 10px;
+    
+}
+.contact-tittle h2{
+    font-size: 16px;
+}
+.contact-tittle h4{
+    font-size: 10px;
+}
+.contact-us1{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.6);
+}
+.contact-form{
+    width: 280px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 10px;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.contact-form input{
+    background: none;
+    color: white;
+}
+.contact-form textArea{
+    background: none;
+    color: white;
+}
+.sucess{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(img/7.jpg) no-repeat;
+  background-size: cover;
+}
+.footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+.setting{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+background: url(img/amazon2.jpg) no-repeat;
+  background-size: cover;
+}
+.setting h1{
+    color: white;
+   padding-left: 500px;
+    font-size: 40px;
+}
+.setting-box{
+    width: 400px;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+.setting1-box{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    color: white;
+    width: 400px;
+    padding: 40px;
+    padding-top: 5px;
+    background: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+table{
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.03);
+    border-radius: 10px;
+    margin: auto;
+}
+th, td{
+    border: 1px solid #f2f2f2 ;
+    padding:  6px 25px;
+    text-align: center;
+    
+}
+th{
+    color: white;
+    background-color: #31b0d5;
+    font-weight: 500;
+}
+td{
+    font-size: 13px;
+}
+.post-class{
+    text-transform: uppercase;
+}
+.fa{
+    font-size: 30px;
+}
+.fa-trash{ 
+    color: #ff0000;
+    size: 20px;
+}
